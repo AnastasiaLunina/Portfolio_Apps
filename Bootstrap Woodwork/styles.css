@@ -1,0 +1,16 @@
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+  }
+
+  .heading {
+    font-weight: bold;
+  }
+
+.back {
+  margin-top: 70px;
+}
+
+

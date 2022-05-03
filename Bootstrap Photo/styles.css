@@ -1,0 +1,14 @@
+body {
+    background-image: url(media/background.jpg);
+    overflow-x: hidden;
+    margin: 0;
+}
+
+.bi {
+    color: black;
+}
+
+.name {
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+}    
