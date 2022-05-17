@@ -1,10 +1,14 @@
+html {
+  overflow-x: hidden;
+}
+
 body {
     background: url(img/back.jpg);
     background-position: 0 0;
     background-repeat: repeat;
     background-size: 100% auto;
     margin: 0;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 
 /* Timer */
@@ -115,6 +119,8 @@ h1 {
 
 .span-heading {
     color: #fff;
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
 }
 
 .sub_heading {
@@ -146,6 +152,11 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.food-image {
+  width: 300px;
+  height: 400px;
 }
 
 .food {
@@ -196,3 +207,32 @@ h1 {
     padding: 10px;
     color: #fff;
   }  
+
+/* Media Query: Small Smartphone (Vertical) */
+@media (max-width: 500px) {
+  h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    color: orange;
+}
+
+.span-heading {
+  font-size: 30px;
+}
+
+#search {
+  width: 100vw;
+  font-size: 30px;
+}
+
+.container {
+flex-direction: column;
+align-items: center;
+width: 200px;
+}
+
+.food-image {
+  width: 200px;
+  height: 300px;
+}
+}

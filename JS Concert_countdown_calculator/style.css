@@ -12,6 +12,7 @@ body {
     background-position: center;
     height: 100vh;
     font-family: 'Bebas Neue', cursive;
+    overflow: hidden;
 }
 
 .heading_container {
@@ -144,6 +145,7 @@ body {
     height: 30px;
     border-radius: 20px;
     margin-bottom: 5px;
+    color: black;
   }
 
 .par {

@@ -1,9 +1,16 @@
 body {
   text-align: center;
   background-color: #283149;
-  background-image: url(images/1\ \(2\).jpg);
+  background-image: url(images/1.jpg);
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
