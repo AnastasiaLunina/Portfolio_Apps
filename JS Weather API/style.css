@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow: hidden;
   }
   
   #myVideo {
@@ -110,7 +111,7 @@
   .contact-icons {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 30px;
     color: white;
   }
   
@@ -137,11 +138,15 @@
     }
 
     .container {
-      margin-top: 200px;
+      margin-top: 150px;
     }
 
     #show {
       font-size: 16px;
+    }
+
+    .contact-icons {
+      margin-top: 10px;
     }
   }
   
