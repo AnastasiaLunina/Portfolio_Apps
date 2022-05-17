@@ -187,6 +187,10 @@ form {
     background-color: #fff;
 }
 
+h2 {
+    font-size: 1.5rem;
+}
+
 .container_mob {
     color: black;
 }
@@ -197,25 +201,42 @@ form {
     margin-top: 15px;
 }
 
-
 .people, .addTicket, #ticket, .addTip, #tip, .btn {
     width: 150px;
 }
 
 .heading {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .showTotalAmountToPay {
     background-color: #484848;
     opacity: 0.5;
-    width: 50%;
+    width: 70%;
     padding: 5px;
+}
+
+.per {
+    font-size: 12px;
+}
+
+.addTip, .addTicket {
+    width: 150px;
+    height: 20px;
+    padding: 3px;
+    font-size: .7rem;
+  }
+
+.btn {
+    width: 150px;
+    height: 20px;
+    padding: 3px;
+    font-size: .7rem;
 }
 
 form {
     margin-top: 50px;
-    width: 50%;
+    width: 70%;
 }
 
 .totalTip,
